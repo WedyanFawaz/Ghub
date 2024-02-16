@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22263187420",
+    "project_id": "ghub-app",
+    "storage_bucket": "ghub-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22263187420:android:647ad37c9b203a44ca7119",
+        "android_client_info": {
+          "package_name": "com.example.ghub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1lviGf_A7oq-br6p0SwvKglaaS32VEA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22263187420:android:5a4b9cc5713be96cca7119",
+        "android_client_info": {
+          "package_name": "com.example.ghub_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1lviGf_A7oq-br6p0SwvKglaaS32VEA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
