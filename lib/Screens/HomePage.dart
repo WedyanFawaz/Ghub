@@ -16,17 +16,17 @@ class HomePage extends StatelessWidget {
           children: [
 
             Container(height: 20,),
-      Obx(() => Expanded(
-        child: ListView.builder(
-          scrollDirection: Axis.horizontal,
-            itemCount: _optionController.options.length,
-            itemBuilder: (context, index) {
-              final option = _optionController.options[index];
-          return    OptionCard(option: option);
-            }),
-      )
+      // Obx(() => Expanded(
+      //   child: ListView.builder(
+      //     scrollDirection: Axis.horizontal,
+      //       itemCount: _optionController.options.length,
+      //       itemBuilder: (context, index) {
+      //         final option = _optionController.options[index];
+      //     return    OptionCard(option: option);
+      //       }),
+      // )
       
-      ), Container(height:cardHeight*0.70,)
+      // ), Container(height:cardHeight*0.70,)
     ]));
   }
 }
