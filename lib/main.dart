@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ghub_app/BottomBar.dart';
-import 'package:ghub_app/Screens/HomePage.dart';
+import 'package:ghub_app/Screens/home_tab_bar.dart';
 
 void main() {
   runApp(ProviderScope(child: MyApp()));
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: BottomBar(),
+        home: const BottomBar(),
       ),
     );
   }
